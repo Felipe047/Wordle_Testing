@@ -1,0 +1,20 @@
+{
+  "name": "wordle-clone",
+  "version": "1.0.0",
+  "description": "Wordle clone by DoubleDebug",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "http-server",
+    "test": "jest"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "jest": "^28.1.1"
+  },
+  "devDependencies": {
+    "jest-environment-jsdom": "^30.0.4"
+  }
+}
